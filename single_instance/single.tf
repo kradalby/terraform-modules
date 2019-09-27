@@ -62,7 +62,6 @@ resource "vsphere_virtual_machine" "single_instance" {
 
   lifecycle {
     ignore_changes = [
-      cluster,
       disk,
       resource_pool_id,
       clone[0].template_uuid,
