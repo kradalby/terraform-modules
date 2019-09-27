@@ -1,6 +1,18 @@
-variable "name" {}
-variable "vcpu" {}
-variable "memory" {}
-variable "template" {}
-variable "datastore" {}
-variable "ipv4" {}
+variable "name" {
+}
+
+variable "vcpu" {
+}
+
+variable "memory" {
+}
+
+variable "template" {
+}
+
+variable "datastore" {
+}
+
+variable "ipv4" {
+}
+

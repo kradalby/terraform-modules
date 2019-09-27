@@ -1,5 +1,15 @@
-variable "name" {}
-variable "vcpu" {}
-variable "memory" {}
-variable "template" {}
-variable "ipv4" {}
+variable "name" {
+}
+
+variable "vcpu" {
+}
+
+variable "memory" {
+}
+
+variable "template" {
+}
+
+variable "ipv4" {
+}
+

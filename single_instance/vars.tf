@@ -1,47 +1,61 @@
 variable "name" {
-    type = "string"
+  type = string
 }
+
 variable "datacenter" {
-    type = "string"
+  type = string
 }
+
 variable "cluster" {
-    type = "string"
-    default = "cluster"
+  type    = string
+  default = "cluster"
 }
+
 variable "vcpu" {
-    type = "string"
+  type = string
 }
+
 variable "memory" {
-    type = "string"
+  type = string
 }
+
 variable "domain" {
-    type = "string"
+  type = string
 }
+
 variable "network_interface_label" {
-    type = "string"
-    default = "Internal"
+  type    = string
+  default = "Internal"
 }
+
 variable "network_interface_address" {
-    type = "string"
+  type = string
 }
+
 variable "network_interface_prefix_length" {
-    type = "string"
-    default = "24"
+  type    = string
+  default = "24"
 }
+
 variable "network_interface_gateway" {
-    type = "string"
+  type = string
 }
+
 variable "template" {
-    type = "string"
+  type = string
 }
+
 variable "datastore" {
-    type = "string"
-    default = "slow"
+  type    = string
+  default = "slow"
 }
+
 variable "disk_type" {
-    type = "string"
-    default = "thin"
+  type    = string
+  default = "thin"
 }
+
 variable "dns" {
-    type = "list"
+  type = list(string)
 }
+
