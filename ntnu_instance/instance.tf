@@ -6,7 +6,7 @@ module "ntnu" {
   memory                    = var.memory
   template                  = var.template
   network_interface_address = var.ipv4
-  datacenter                = "terra"
+  datacenter                = "ntnu"
   datastore                 = var.datastore
 
   //    cluster = "10.60.0.2"
