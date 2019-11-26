@@ -10,6 +10,9 @@ variable "memory" {
 variable "template" {
 }
 
+variable "datastore" {
+}
+
 variable "ipv4" {
 }
 
