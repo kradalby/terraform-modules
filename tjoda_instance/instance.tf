@@ -11,7 +11,7 @@ module "tjoda" {
 
   //    cluster = "10.60.0.2"
   domain                    = "fap.no"
-  network_interface_gateway = "192.168.1.1"
-  dns                       = ["192.168.1.1", "1.1.1.1"]
+  network_interface_gateway = "10.62.0.1"
+  dns                       = ["10.62.0.1", "1.1.1.1"]
 }
 
