@@ -1,3 +1,15 @@
+provider "opnsense" {
+  alias = "terra"
+}
+
+provider "opnsense" {
+  alias = "tjoda"
+}
+
+provider "opnsense" {
+  alias = "ntnu"
+}
+
 variable public_key {
   type = string
 }
