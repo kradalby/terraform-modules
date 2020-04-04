@@ -16,7 +16,7 @@ variable "ttl" {
 }
 
 resource "cloudflare_record" "record" {
-  domain  = var.domain
+  zone_id = var.domain
   name    = var.sub
   value   = var.hostname
   type    = "CNAME"

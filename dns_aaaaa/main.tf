@@ -19,7 +19,7 @@ variable "ttl" {
 }
 
 resource "cloudflare_record" "record_v4" {
-  domain  = var.domain
+  zone_id = var.domain
   name    = var.sub
   value   = var.ipv4
   type    = "A"
@@ -28,7 +28,7 @@ resource "cloudflare_record" "record_v4" {
 }
 
 resource "cloudflare_record" "record_v6" {
-  domain  = var.domain
+  zone_id = var.domain
   name    = var.sub
   value   = var.ipv6
   type    = "AAAA"
