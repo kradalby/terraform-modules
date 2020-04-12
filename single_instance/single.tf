@@ -72,7 +72,7 @@ resource "vsphere_virtual_machine" "single_instance" {
 module "single_instance_dns" {
   source = "../dns_a"
 
-  domain = var.domain
+  domain = var.zone_id
   sub    = "${var.name}.${var.datacenter}"
   ip     = vsphere_virtual_machine.single_instance.default_ip_address
 }
