@@ -10,7 +10,7 @@ module "tjoda" {
   datastore                 = var.datastore
 
   //    cluster = "10.60.0.2"
-  domain                    = "fap.no"
+  domain                    = var.fap_no
   network_interface_gateway = "10.62.0.1"
   dns                       = ["10.62.0.1", "1.1.1.1"]
 }
