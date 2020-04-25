@@ -13,6 +13,6 @@ module "ntnu" {
   zone_id                   = var.fap_no
   domain                    = "fap.no"
   network_interface_gateway = "10.61.0.1"
-  dns                       = ["10.61.0.1", "10.61.0.1"]
+  dns                       = ["10.61.0.1"]
 }
 

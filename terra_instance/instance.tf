@@ -13,6 +13,6 @@ module "terra" {
   zone_id                   = var.fap_no
   domain                    = "fap.no"
   network_interface_gateway = "10.60.0.1"
-  dns                       = ["10.60.0.1", "10.60.10.1"]
+  dns                       = ["10.60.0.1"]
 }
 

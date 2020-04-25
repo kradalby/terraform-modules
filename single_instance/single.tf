@@ -65,6 +65,7 @@ resource "vsphere_virtual_machine" "single_instance" {
       disk,
       resource_pool_id,
       clone[0].template_uuid,
+      clone[0].customize[0].dns_server_list,
     ]
   }
 }

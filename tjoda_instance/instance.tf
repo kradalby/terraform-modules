@@ -13,6 +13,6 @@ module "tjoda" {
   zone_id                   = var.fap_no
   domain                    = "fap.no"
   network_interface_gateway = "10.62.0.1"
-  dns                       = ["10.62.0.1", "1.1.1.1"]
+  dns                       = ["10.62.0.1"]
 }
 
